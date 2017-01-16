@@ -622,7 +622,7 @@
 	_autoScrolledViewOriginalContentInset = UIEdgeInsetsZero;
 	_autoScrolledViewOriginalFrame = CGRectNull;
 	_autoScrolledViewOriginalScrollIndicatorInsets = UIEdgeInsetsZero;
-	_autoScrollForKeyboardInputPaddingSize = CGSizeMake(0.0f, 10.0f);
+	_autoScrollForKeyboardInputPaddingSize = CGSizeMake(0.0f, 50.0f);
 	_autoScrollForKeyboardInputVisibleRect = CGRectZero;
 	_scrollViewInsetsWereSaved = NO;
         _inputAccessoryViewTranslucent = YES;
