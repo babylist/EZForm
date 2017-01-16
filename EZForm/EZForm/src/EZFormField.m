@@ -39,6 +39,12 @@
 
 @implementation EZFormField
 
+- (instancetype)init {
+    NSAssert(NO, @"Use designated initalizer initWithKey:");
+    self = [self initWithKey:nil];
+    return self;
+}
+
 #pragma mark - Values
 
 - (id)fieldValue
