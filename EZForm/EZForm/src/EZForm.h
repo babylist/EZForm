@@ -141,6 +141,12 @@ typedef NS_ENUM(NSInteger, EZFormInvalidIndicatorViewType) {
  */
 - (void)addFormField:(EZFormField *)formField;
 
+/** Removes a field to the form.
+ *
+ *  @param formField The form field to remove from the form.
+ */
+- (void)removeFormField:(EZFormField *)formField;
+
 /** Returns the form field object for the key specified.
  *
  *  @param key The key of the form field to return.

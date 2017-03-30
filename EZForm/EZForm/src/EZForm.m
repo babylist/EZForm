@@ -76,6 +76,18 @@
     }
 }
 
+- (void)removeFormField:(EZFormField *)formField {
+
+    if (!formField){
+        return;
+    }
+
+    formField.form = nil;
+    [self.formFields removeObject:formField];
+
+}
+
+
 - (id)formFieldForKey:(NSString *)key
 {
     EZFormField *result = nil;
