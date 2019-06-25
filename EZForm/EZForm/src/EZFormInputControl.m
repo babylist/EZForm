@@ -37,6 +37,15 @@
 @dynamic text;
 @dynamic tapToBecomeFirstResponder;
 
+- (id) initWithFrame:(CGRect)frame {
+    self = [self initWithFrame:frame label:nil];
+    return self;
+}
+
+- (id) initWithCoder:(NSCoder *)aDecoder {
+    self = [self initWithFrame:CGRectZero label:nil];
+    return self;
+}
 
 - (instancetype)initWithFrame:(CGRect)frame label:(UILabel *)label
 {
